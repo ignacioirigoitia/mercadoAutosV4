@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('./partials/head')  %> 
+<body>
+    <%- include('./partials/header')  %> 
+
+    <main class="container">
+        <form action="/admin/autos/store" method="POST" enctype="multipart/form-data">
+          <h3>Agregar</h3>
+          <hr>
+          <div class="row">
+            <div class="col-md-6 col-lg-4">
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="modelo" placeholder="marca" name="marca">
+                <label for="modelo">Marca</label>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="modelo" placeholder="modelo" name="modelo">
+                <label for="modelo">Modelo</label>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4">
+              <div class="form-floating mb-3">
+                <input type="number" min="2000" max="2021" class="form-control" id="anio" placeholder="año" name="anio">
+                <label for="anio">Año</label>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-floating mb-3">
+                <input type="text" class="form-control" id="color" placeholder="color" name="color">
+                <label for="color">Color</label>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div>
+                <input class="form-control form-control-lg" id="formFileLg" type="file" name="img-autos">
+              </div>
+            </div>
+          
+          </div>
+        
+          <div class="d-grid gap-2">
+            <button class="btn btn-primary" type="submit">Guardar</button>
+          </div>
+        
+         
+          </form>
+        </main>
+    <%- include('./partials/footer')  %> 
+
+</body>
+</html>

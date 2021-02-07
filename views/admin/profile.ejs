@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('./partials/head')  %> 
+<body>
+    <%- include('./partials/header')  %> 
+
+    <main>
+        <h1>Datos del administrador</h1>
+        <ul class="list-group">
+            <li class="list-group-item"><%= admin.id %> </li>
+            <li class="list-group-item"><%= admin.username %></li>
+            <li class="list-group-item"><%= admin.pass %></li>
+           
+          </ul>
+    </main>
+
+    <%- include('./partials/footer')  %> 
+
+</body>
+</html>

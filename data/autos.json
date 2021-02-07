@@ -1,0 +1,106 @@
+[
+  {
+    "id": 1,
+    "marca": "volkswagen",
+    "modelo": "fox",
+    "anio": 2020,
+    "color": "blue",
+    "img": "vw_fox.jpg"
+  },
+  {
+    "id": 2,
+    "marca": "chevrolet",
+    "modelo": "onix",
+    "anio": 2020,
+    "color": "black",
+    "img": "chevro_onix.jpg"
+  },
+  {
+    "id": 3,
+    "marca": "chevrolet ",
+    "modelo": "spin ",
+    "anio": "2015 ",
+    "color": "green",
+    "img": "chevro_spin.jpg "
+  },
+  {
+    "id": 4,
+    "marca": "chevrolet ",
+    "modelo": "spin active ",
+    "anio": "2020",
+    "color": "Beige ",
+    "img": "chevro_spinActive.jpg "
+  },
+  {
+    "id": 5,
+    "marca": "volkswagen",
+    "modelo": "up",
+    "anio": 2020,
+    "color": "SteelBlue",
+    "img": "vw_up.jpg"
+  },
+  {
+    "id": 6,
+    "marca": "volkswagen",
+    "modelo": "suran",
+    "anio": 2019,
+    "color": "darkblue",
+    "img": "vw_suran.jpg"
+  },
+  {
+    "id": 7,
+    "marca": "volkswagen",
+    "modelo": "gol",
+    "anio": 2019,
+    "color": "red",
+    "img": "vw_gol.jpg"
+  },
+  {
+    "id": 8,
+    "marca": "volkswagen",
+    "modelo": "t-cross",
+    "anio": 2014,
+    "color": "brown",
+    "img": "vw_t-cross.jpg"
+  },
+  {
+    "id": 9,
+    "marca": "volkswagen",
+    "modelo": "touareg",
+    "anio": 2010,
+    "color": "blue",
+    "img": "vw_touareg.jpg"
+  },
+  {
+    "id": 10,
+    "marca": "fiat",
+    "modelo": "ducato",
+    "anio": 2020,
+    "color": "white",
+    "img": "fiat_ducato.jpg"
+  },
+  {
+    "id": 11,
+    "marca": "fiat",
+    "modelo": "fiorino",
+    "anio": 2019,
+    "color": "Gainsboro",
+    "img": "fiat_fiorino.jpg"
+  },
+  {
+    "id": 12,
+    "marca": "fiat",
+    "modelo": "argo",
+    "anio": 2010,
+    "color": "white",
+    "img": "fiat_argo.jpg"
+  },
+  {
+    "id": 13,
+    "marca": "Fiat",
+    "modelo": "Ducato",
+    "color": "gray",
+    "anio": "2020",
+    "img": "img-1611937669598.jpg"
+  }
+]
